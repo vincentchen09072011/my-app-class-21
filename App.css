@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+div {
+  display: grid;
+}
+.menu {
+  position: absolute;
+  right: 30px;
+  top: 16px;
+}
+.showmenu {
+  font-weight: 600;
+  color: rgb(37 99 235);
+  background-color: white;
+}
+.oneandsecdiv {
+  position: relative;
+  align-items: start;
+  padding-bottom: 800px;
+}
+.firstdiv {
+  display: flex;
+  gap: 440px;
+  align-items: center;
+}
+.minus {
+  background-color: red;
+  color: white;
+  border-radius: 7px;
+}
+.add {
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+}
+.reset {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(202 138 4);
+  padding-left: 60px;
+  padding-right: 60px;
+  position: absolute;
+  left: 420px;
+  border-radius: 5px;
+}
